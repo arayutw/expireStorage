@@ -2,7 +2,7 @@
 localStorage、sessionStorageの各データに有効期限を設定するためのラッパーです。
 
 # how to use
-```
+```xml
 <script src="/path/to/expire-storage.js"></script>
 ```
 
