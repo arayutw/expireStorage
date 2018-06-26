@@ -6,7 +6,7 @@ localStorage、sessionStorageの各データに有効期限を設定するため
 <script src="/path/to/expire-storage.js"></script>
 ```
 
-## instance
+## Instance / Option
 ```javascript
 // クラス名(Storage)はファイル内で変更できます。
 var storage = new Storage( "storage_name", {
@@ -15,24 +15,25 @@ var storage = new Storage( "storage_name", {
 } );
 ```
 
-## set (not with expire)
+## API
+### set (not with expire)
 ```javascript
 storage.set("key_name", "value");
 ```
 
-## set (with expire)
+### set (with expire)
 ```javascript
 // 60 second
 storage.set("key_name", "value", 60);
 ```
 
-## get
+### get
 ```javascript
 // return null if value not exists
 storage.get("key_name");
 ```
 
-## remove
+### remove
 ```javascript
 storage.remove("key_name");
 ```
