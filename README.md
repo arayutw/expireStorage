@@ -8,7 +8,7 @@ localStorage、sessionStorageの各データに有効期限を設定するため
 
 ## Instance / Option
 ```javascript
-// クラス名(Storage)はファイル内で変更できます。
+// 名前(Storage)はファイル内で変更できます。
 var storage = new Storage( "storage_name", {
   type: 1,  // 0=localStorage(default) / 1=sessionStorage
   maxSize: 90000, // max byte(このサイズを超えたらデータはリセットされる)
