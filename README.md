@@ -1,7 +1,7 @@
 # expireStorage
 localStorage、sessionStorageの各データに有効期限を設定するためのラッパーです。
 
-# how to use
+# How to use
 ```xml
 <script src="/path/to/expire-storage.js"></script>
 ```
@@ -38,7 +38,7 @@ storage.get("key_name");
 storage.remove("key_name");
 ```
 
-# attention
+# Attention
 有効期限を設定した時、内部のデータは次の構造になります。`_e`と`_v`は予約語のため、オブジェクト形式の値では使わないで下さい。この予約語は、ファイル内で変更できます。
 ```javascript
 {
